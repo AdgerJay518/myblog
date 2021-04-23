@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/myblog?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+mybatis:
+  type-aliases-package: com.adgerjay518.pojo,com.adgerjay518.common.dto.LoginDto
+  mapper-locations: classpath:mapper/*.xml
+shiro-redis:
+  enabled: true
+  redis-manager:
+    host: 39.97.212.128:6666
+blog:
+  jwt:
+    signKey: d5a4sf6sf1as4d56w464e65q54asd45
+    expire: 604800
+    header: Authorization
+server:
+  port: 8088
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+  returnPageInfo: check

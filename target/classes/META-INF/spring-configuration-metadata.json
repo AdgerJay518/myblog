@@ -1,0 +1,31 @@
+{
+  "groups": [
+    {
+      "name": "blog.jwt",
+      "type": "com.adgerjay518.utils.JwtUtils",
+      "sourceType": "com.adgerjay518.utils.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "blog.jwt.expire",
+      "type": "java.lang.Long",
+      "description": "失效时间",
+      "sourceType": "com.adgerjay518.utils.JwtUtils",
+      "defaultValue": 0
+    },
+    {
+      "name": "blog.jwt.header",
+      "type": "java.lang.String",
+      "description": "头信息",
+      "sourceType": "com.adgerjay518.utils.JwtUtils"
+    },
+    {
+      "name": "blog.jwt.sign-key",
+      "type": "java.lang.String",
+      "description": "签名key",
+      "sourceType": "com.adgerjay518.utils.JwtUtils"
+    }
+  ],
+  "hints": []
+}

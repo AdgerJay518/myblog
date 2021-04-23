@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.adgerjay518.MyblogApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.016 s - in com.adgerjay518.MyblogApplicationTests
